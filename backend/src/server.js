@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 const PORT = process.env.PORT || 5000;
-const APP_VERSION = process.env.APP_VERSION || "1.0.0";
+const APP_VERSION = process.env.APP_VERSION || "1.0.1";
 
 app.use(express.json());
 
